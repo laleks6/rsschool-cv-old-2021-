@@ -5,6 +5,7 @@
 
 ### Education
  National University of Science and Technology MISiS
+
 ***
 
 ### Skills
@@ -17,6 +18,7 @@
 + **GitHub**
 + **JS**
 + **Python**
+
 ***
 
 ### Code example
@@ -26,15 +28,18 @@ function multiply(a, b){
  
 }
 ```
+
 ***
 
 ### Language
 + Russian - **Native**
 + English - **A2**
+
 ***
 
 ### About me
 I am an ordinary person who, after graduating from university, wants to gain knowledge and get on the RS-school gold list.
+
 ***
 
 ### Contacts
