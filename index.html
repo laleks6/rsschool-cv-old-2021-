@@ -1,28 +1,85 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Ломанов Александр">
-    <meta name="descriptions" content="Тестовая страница">
-    <meta name="keywords" content="тест, проверка, html">
-    <title> главная страница</title>
-  </head>
-  <body>
-    <h1><strike>Заголовок 1</strike></h1>
-    <h2> Заголовок 2</h2>
-    <h3>Заголовок 3 </h3>
-    <h4>Заголовок 4 </h4>
-    <h5>Заголовок 5</h5>
-    <h6>Заголовок 6 </h6>
-    <h7>Заголовок 7</h7>
-    <p> просто <b>текс</b></p>
-    <p> просто <i>текс</i></p>
-    H<sub>2</sub>O
-    <p>x<sup>2</sup></p>
-    автобус<br><!--перенос текста на другую строчку-->
-    книга<hr><!--этот нужен для построения горизонтальной линии-->
-    <pre> function soma(){
-       return some();      
-    }</pre><!-- этот тэг сохроняет строение предложения-->
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+
+</head>
+<body>
+    <header >
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main  class="main-container">
+        <section class="section" id="profile">
+            <img src=".\assets\1.jpg" alt="avatar" class="img-avatar">
+            <h1 class="section-title">Lomanov Aleksandr</h1>
+            <p>Student frontend developer</p><br>
+        </section>
+        <section class="section" id="educetion">
+            <h2 class="section-title">Education:</h2>
+            <p>National University of Science and Technology MISiS</p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills:</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>VS Code</li>
+                <li>Adobe Photoshop</li>
+                <li>Figma</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>JS</li>
+                <li>Python</li>
+            </ul>
+        </section>
+        <section class="section" id="code-example">
+            <h2 class="section-title">Code example:</h2>
+            <pre class="code">
+                <code class="js">function multiply(a, b){
+                return a * b
+             }
+              </code>
+            </pre>
+        </section>
+        <section class="section" id="language">
+            <h2 class="section-title">Language:</h2>
+            <ul>
+                <li>Russian - <b>Native</b></li>
+                <li>English - <b>A2</b></li>
+            </ul>
+        </section>
+        <section class="section" id="about-me">
+            <h2 class="section-title">About me:</h2>
+            <p>I am an ordinary person who, after graduating from university, wants to gain knowledge and get on the RS-school gold list.</p>
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts:</h2>
+            <ul>
+                <li><b>Email:</b> lomanovsaha98@gmail.com </li>
+                <li><b>Github:</b> <a class="link-git" href="https://github.com/laleks6">laleks6</a></li>
+                <li><b>Telegram:</b> @laleks6</li>
+                <li><b>Discord:</b> Lomanov Aleksandr(@laleks6)</li>
+            </ul>
+        </section>
+        <div class="container"></div>
+    </main>
+    <foote>
+        <img src=".\assets\img\rs_school_js.jpg" alt="rs-school" class="img-rs">
+        <a href="https://rs.school/js/">RS school</a>
+    </footer>
+</body>
 </html>
